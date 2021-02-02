@@ -2,7 +2,7 @@ import numpy
 
 
 def array(lis):
-    a = numpy.array(lis)
+    a = numpy.array(lis, int)
     return numpy.reshape(a, (3, 3))
 
 
